@@ -1,0 +1,105 @@
+.popular-books{
+    padding: 100px 40px;
+    background-color: #0f172a;
+}
+
+.popular-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.popular-header h2{
+    color: white;
+    font-size: 2rem;
+}
+
+.popular-header button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    background: #6366f1;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.popular-header button:hover{
+    background: #4f46e5;
+}
+
+.books-container{
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    padding: 10px 0;
+}
+
+.books-container::-webkit-scrollbar{
+    display: none;
+}
+
+.carousel-wrapper{
+    position: relative;
+}
+
+.carousel-btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 55px;
+    height: 55px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(99,102,241,0.95);
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+    transition: 0.3s;
+    box-shadow: 0 10px 25px rgba(99,102,241,0.35);
+}
+
+.carousel-btn:hover{
+    background: #4f46e5;
+    transform: translateY(-50%) scale(1.08);
+}
+
+.carousel-btn.left{
+    left: -28px;
+}
+
+.carousel-btn.right{
+    right: -28px;
+}
+
+@media (max-width: 768px) {
+    .popular-header{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .popular-header h2{
+        font-size: 1.5rem;
+    }
+
+    .carousel-btn{
+        width: 42px;
+        height: 42px;
+        font-size: 22px;
+    }
+
+    .carousel-btn.left{
+        left: -10px;
+    }
+
+    .carousel-btn.right{
+        right: -10px;
+    }
+}

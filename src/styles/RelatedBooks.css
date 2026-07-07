@@ -1,0 +1,33 @@
+.related-books{
+    margin-top: 70px;
+    padding: 20px;
+}
+
+.related-books h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 2rem;
+}
+
+.related-books-container{
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    width: 100%;
+}
+
+.related-books-container::-webkit-scrollbar{
+    display: none;
+}
+
+.related-caorousel-wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.related-caorousel-wrapper::-webkit-scrollbar{
+    display: none;
+}

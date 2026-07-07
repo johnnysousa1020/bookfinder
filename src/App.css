@@ -1,0 +1,389 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(180deg, #0A0A0F 0%, #111827 100%);
+  color: #ffffff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+}
+
+body.light-theme{
+  background: #f8fafc;
+  color: #1e293b;
+}
+
+body.light-theme .header{
+  background: rgba(255,255,255,0.9);
+  border-bottom: 1px solid #ddd;
+}
+
+body.light-theme .logo{
+  color: #1e293b;
+}
+
+body.light-theme .desktop-nav a{
+  color: #374151;
+}
+
+body.light-theme .desktop-nav button{
+  color: #374151;
+}
+
+body.light-theme .desktop-nav a:hover{
+  color: #6366f1;
+}
+
+body.light-theme .desktop-nav button:hover{
+  color: #6366f1;
+}
+
+body.light-theme .theme-btn, body.light-theme .profile, body.light-theme .menu-btn{
+  background: #e5e7eb;
+  color: #1e293b;
+}
+
+body.light-theme .hero{
+  background: #f8fafc;
+  background-image: url(./assets/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body.light-theme .hero h1{
+  color: #1e293b;
+}
+
+body.light-theme .hero p{
+  color: #475569;
+}
+
+body.light-theme .search-container input{
+  background: white;
+  color: #1e293b;
+  border: 1px solid #d1d5db;
+}
+
+body.light-theme .search-container input::placeholder{
+  color: #94a3b8;
+}
+
+body.light-theme .recommendation-card{
+  background: white;
+  color: #1e293b;
+  box-shadow: 0 10px 30px rgba(0,0,0,08);
+}
+
+body.light-theme .popular-books{
+  background: #f8fafc;
+}
+
+body.light-theme .popular-header h2{
+  color: #1e293b;
+}
+
+body.light-theme .book-infos{
+  color: #1e293b;
+}
+
+body.light-theme .book-info h3{
+  color: #1e293b;
+}
+
+body.light-theme .book-author{
+  color: #64748b;
+}
+
+body.light-theme .book-rating{
+  color: #d97706;
+}
+
+body.light-theme .carousel-btn{
+  background: #6366f1;
+  color: white;
+}
+
+body.light-theme .carousel-btn:hover{
+  background: #4f46e5;
+}
+
+body.light-theme .search-results{
+  background: #f8fafc;
+}
+
+body.light-theme .search-results h2{
+  color: #1e293b;
+}
+
+body.light-theme .search-results .book-infos{
+  color: #1e293b;
+}
+
+body.light-theme .search-results .book-author{
+  color: #64748b;
+}
+
+body.light-theme .search-results .book-rating{
+  color: #d97706;
+}
+
+body.light-theme .categories{
+  background: #f8fafc;
+}
+
+body.light-theme .categories-header h2{
+  color: #1e293b;
+}
+
+body.light-theme .category-card{
+  background: white;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 8px 20px rgba(0,0,0,08);
+}
+
+body.light-theme .category-card h3{
+  color: #1e293b;
+}
+
+body.light-theme .category-card p{
+  color: #64748b;
+}
+
+body.light-theme .category-icon{
+  color: #6366f1;
+}
+
+body.light-theme .category-card.active{
+  border: 2px solid #6366f1;
+  box-shadow: 0 12px 25px rgba(99,102,241,0.25);
+}
+
+body.light-theme .features{
+  background: #f8fafc;
+}
+
+body.light-theme .features h2{
+  color: #1e293b;
+}
+
+body.light-theme .features p{
+  color: #64748b;
+}
+
+body.light-theme .feature-card{
+  background: white;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 10px 25px rgba(0,0,0,08);
+}
+
+body.light-theme .feature-card h3{
+  color: #1e293b;
+}
+
+body.light-theme .feature-card p{
+  color: #64748b;
+}
+
+body.light-theme .feature-icon{
+  color: #6366f1;
+}
+
+body.light-theme .stats{
+  background: #f8fafc;
+}
+
+body.light-theme .stat-card{
+  background: white;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 10px 25px rgba(0,0,0,08);
+}
+
+body.light-theme .stat-card h3{
+  color: #6366f1;
+}
+
+body.light-theme .stat-card span{
+  color: #64748b;
+}
+
+body.light-theme .stats-header h2{
+  color: #1e293b;
+}
+
+body.light-theme .stats-header p{
+  color: #4f46e5;
+}
+
+body.light-theme .cta{
+  background: #f8fafc;
+}
+
+body.light-theme .cta-container{
+  background: white;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 10px 25px rgba(0,0,0,08);
+}
+
+body.light-theme .cta h2{
+  color: #1e293b;
+}
+
+body.light-theme .cta p{
+  color: #64748b;
+}
+
+body.light-theme .cta button{
+  background: #6366f1;
+  color: white;
+}
+
+body.light-theme .cta button:hover{
+  background: #4f46e5;
+}
+
+body.light-theme .testimonials{
+  background: #f8fafc;
+}
+
+body.light-theme .testimonials-header h2{
+  color: #1e293b;
+}
+
+body.light-theme .testimonials-header p{
+  color: #64748b;
+}
+
+body.light-theme .testimonial-card{
+  background: white;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 10px 25px rgba(0,0,0,08);
+}
+
+body.light-theme .testimonial-card h3{
+  color: #1e293b;
+}
+
+body.light-theme .testimonial-card p{
+  color: #64748b;
+}
+
+body.light-theme .stars{
+  color: #f59e0b;
+}
+
+body.light-theme .footer{
+  background: #ffffff;
+  border-top: 1px solid #e5e7eb;
+}
+
+body.light-theme .footer-logo{
+  color: #1e293b;
+}
+
+body.light-theme .footer-logo span{
+  color: #6366f1;
+}
+
+body.light-theme .footer h3{
+  color: #1e293b;
+}
+
+body.light-theme .footer-logo p,
+body.light-theme .footer a{
+  color: #64748b;
+}
+
+body.light-theme .footer a:hover{
+  color: #6366f1;
+}
+
+body.light-theme .footer-social a{
+  background: #f1f5f9;
+  color: #1e293b;
+}
+
+body.light-theme .footer-social a:hover{
+  background: #6366f1;
+  color: white;
+}
+
+body.light-theme .footer-bottom{
+  border-top: 1px solid #e5e7eb;
+  color: #64748b;
+}
+
+body.light-theme .abount-modal{
+  background: white;
+  color: #1e293b;
+}
+
+body.light-theme .abount-modal p,
+body.light-theme .abount-modal li{
+  color: #64748b;
+}
+
+body.light-theme .abount-modal h2{
+  color: #6366f1;
+}
+
+body.light-theme .abount-modal h3{
+  color: #1e293b;
+}
+
+body.light-theme .close-modal{
+  background: #e5e7eb;
+  color: #1e293b;
+}
+
+body.light-theme .close-modal:hover{
+  background: #6366f1;
+  color: white;
+}
+
+body.light-theme .book-details{
+  background: #f8fafc;
+}
+
+body.light-theme .book-content{
+  color: #1e293b;
+}
+
+body.light-theme .book-content h3{
+  color: #64748b;
+}
+
+body.light-theme .book-content p{
+  color: #475569;
+}
+
+body.light-theme .book-content h2{
+  color: #1e293b;
+}
+
+body.light-theme .back-button{
+  background: #6366f1;
+  color: white;
+}
+
+body.light-theme .favorite-btn{
+  background: #ef4444;
+  color: white;
+}
+
+body.light-theme .preview-btn{
+  background: #6366f1;
+  color: white;
+}
+
+body.light-theme .book-cover{
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+body.light-theme .related-books h2{
+  color: #0A0A0F;
+}
