@@ -5,7 +5,8 @@ livros utilizando a Google Books API. O projeto oferece uma experiência moderna
 e responsiva, com pesquisa em tempo real, favoritos, categorias, tema claro/escuro
 e uma interface elegante
 
- ## 🔗https://johnnysousa1020.github.io/bookfinder/
+ ## 🔗 Link do projeto
+ https://johnnysousa1020.github.io/bookfinder/
 
 ---
 
