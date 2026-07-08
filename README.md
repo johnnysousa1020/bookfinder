@@ -1,16 +1,53 @@
-# React + Vite
+# 📚 BookFinder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+BookFinder é uma aplicação desenvolvida em React que permite pesquisar
+livros utilizando a Google Books API. O projeto oferece uma experiência moderna
+e responsiva, com pesquisa em tempo real, favoritos, categorias, tema claro/escuro
+e uma interface elegante
 
-Currently, two official plugins are available:
+ ## 🔗https://johnnysousa1020.github.io/bookfinder/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔍 Pesquisa de livros pela Google Books API
+- 📖 Página de detalhes de cada livro
+- ❤️ Sistema de favoritos utilizando LocalStorage
+- 📂 Pesquisa por categorias
+- 📚 Seção de livros populares
+- 🌙 Tema claro e escuro
+- 📱 Layout totalmente responsivo
+- 👤 Perfil do desenvolvedor
+- ℹ️ Modal "Sobre o BookFinder"
+- 🚀 Navegação com React Router
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologias utilizadas
+
+- React
+- JavaScript
+- Vite
+- React Router
+- CSS3
+- React Icons
+- Google Books API
+- LolaStorage
+
+---
+
+## 📷 Funcionalidades do projeto
+
+- Buscar livros por título ou autor
+- Visualizar informações detalhadas
+- Adicionar e remover favoritos
+- Explorar categorias
+- Alternar entre tema claro e escuro
+- Navegação moderna e intuitiva
+
+---
+
+## 👤 Desenvolvedor
+
+Desenvolvido por Johnny Sousa
